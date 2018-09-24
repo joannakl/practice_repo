@@ -1,6 +1,7 @@
 
 #include<stdio.h>
+# This is Stewart's version
 
 int main (){
-  printf("This is a short C program");
+  printf("This is a very short C program");
 }
