@@ -1,11 +1,13 @@
 
 #include<stdio.h>
-# This is Stewart's version
+#include "foo.h"
+
+// This is Stewart's version
 
 int main (){
   int k = 20;
   printf("This is a very short C program");
-  printf(#%d\n", foo(k));
+  printf("%d\n", foo(k));
   return 0;
   
 }
