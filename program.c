@@ -9,7 +9,7 @@ int main (){
   printf("This is a very short C program\n");
   printf("%d\n", foo(k));
   k = foo(k);
-  printf("%d\n", foo(k));
+  printf("%d\n", foo(foo(k)));
   return 0;
   
 }
