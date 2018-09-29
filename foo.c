@@ -1,5 +1,5 @@
 int foo( int n)
-// a dummy comment
+// a conflict comment
 {
     if ( n & 1 )
         return n+1;
